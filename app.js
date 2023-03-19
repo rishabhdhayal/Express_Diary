@@ -22,7 +22,7 @@ app.use(bodyParser.json())
 // middleware for method override
 app.use(methodOverride('_method'));
 //database url 
-const url  =  'mongodb+srv://rishabhdhayal:artifloric2023@express-diary.r6zchaz.mongodb.net/?retryWrites=true&w=majority';
+const url  =  'mongodb+srv://rishabhdhayal:<password>@express-diary.r6zchaz.mongodb.net/?retryWrites=true&w=majority';
 
 //connecting app with databse
 moongose.connect(url,{
